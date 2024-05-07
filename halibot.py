@@ -14,7 +14,7 @@ class MyCog(commands.Cog):
     async def testcommand(self, interaction: discord.Interaction) -> None:
         await interaction.response.send_message("sus")
 
-class SmashBot(commands.Bot):
+class HaliBot(commands.Bot):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         
