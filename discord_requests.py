@@ -1,3 +1,5 @@
+''' This file was just for prototyping, this will not be used in any future versions.'''
+
 import requests
 import json
 
